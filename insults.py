@@ -1,11 +1,10 @@
 import random
+from constants import SHAKESPEARE_FILE_PATH, ANIMALS_FILE_PATH
 
-def get_insult():
+def get_insult(message):
 
-    i = 0
-
-    f = open("shake_insults.txt")
-    g = open("animals.txt")
+    f = open(SHAKESPEARE_FILE_PATH)
+    g = open(ANIMALS_FILE_PATH)
 
     insults = [line for line in f]
     animals = [line for line in g]
