@@ -1,6 +1,8 @@
 import random
 from constants import SHAKESPEARE_FILE_PATH, ANIMALS_FILE_PATH
 
+# note to self: make this all compatible with generators 
+
 def get_insult(message):
 
     f = open(SHAKESPEARE_FILE_PATH)
