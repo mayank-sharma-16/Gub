@@ -14,16 +14,17 @@ class Questions(commands.Cog):
 
     @commands.Cog.listener(name="on_message")
     async def react_to_praise(self, message):
+        
         if message.content in GUB_PRAISES:
             await message.channel.send(file=discord.File(random.choice(HAPPY_REACT_FILE_PATHS)))
-        elif message.content in GUB_PRAISES:
+        elif message.content in GUB_INSULTS:
             await message.channel.send(file=discord.File(random.choice(SAD_REACT_FILE_PATHS)))
 
     @commands.command(name="smile")
     async def smile(self, ctx):
         await ctx.send(file=discord.File(SELF_FILE_PATH))
 
-    @commands.command(name="to_be", aliases=["will", "is", "should", "could", "would", "can", "are"])
+    @commands.command(name="to_be", aliases=["will", "is", "should", "could", "would", "can", "are", "did", "does", "do"])
     async def to_be(self, ctx):
         if random.random() > 0.5:
             await ctx.send("Yes")

@@ -120,6 +120,6 @@ ANIMALS_FILE_PATH = "files/animals.txt"
 SAD_SIZE = file_count('images/sad/animals', 'sad')
 SAD_REACT_FILE_PATHS = [f"images/sad/animals/sad{i}.jpeg" for i in range(1,SAD_SIZE+1)]
 
-HAPPY_SIZE = file_count('images/happy/animals', 'happy')
-HAPPY_REACT_FILE_PATHS = [f"images/happy/animals/happy{i}.jpeg" for i in range(1,HAPPY_SIZE+1)]
+HAPPY_SIZE = file_count('images/happy/anime', 'happy')
+HAPPY_REACT_FILE_PATHS = [f"images/happy/anime/happy{i}.jpeg" for i in range(1,HAPPY_SIZE+1)]
 

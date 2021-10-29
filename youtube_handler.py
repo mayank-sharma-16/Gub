@@ -43,6 +43,14 @@ async def stream(self, ctx, *, url):
 
     await ctx.send(f'Now playing: {player.title}')
 
+async def pause(self, ctx):
+
+    voice_client = ctx.message.guild.voice_client
+    if voice_client.is_playing():
+        await voice_client.pause()
+    else:
+        await ctx.send("Nothing's paused.")
+
 async def stop(self, ctx):
     """Stops and disconnects the bot from voice"""
 
