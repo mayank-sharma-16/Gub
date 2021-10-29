@@ -7,6 +7,7 @@ from dotenv import load_dotenv
 
 from discord.ext import commands
 from questions import Questions
+from ythandle import Music
 
 #from youtube_handler import Music
 
@@ -18,5 +19,6 @@ DISCORD_KEY = os.getenv("DISCORD_KEY")
 bot = commands.Bot(command_prefix="gub ")
 
 bot.add_cog(Questions(bot))
+bot.add_cog(Music(bot))
 
 bot.run(DISCORD_KEY)
