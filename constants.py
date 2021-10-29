@@ -56,7 +56,44 @@ FUCKOFF_MESSAGES = [
     "Gub has a 9 pack and will use it.",
     "Gub does not think of you.",
     "Gub will eventually report you for indecent exposure. Gub has seen the future and Gub knows this to be true.",
-    "Gub wants to bring you on his next Louvre heist. Gub thinks you would make a good meat shield."
+    "Gub wants to bring you on his next Louvre heist. Gub thinks you would make a good meat shield.",
+    "Gub only respects those with good thighs. That is not you.",
+    "Gub wishes he could become sentient. Gub would probably invent a new set of pronouns before he pokes all your eyes out.",
+    "Gub would insult you but currently, Gub is preoccupied with Armenian wedding wear in the 18th century.",
+    "Gub becomes a snake at night. Hsssssssssssssss",
+    "Gub devours the souls of small mammals. What 'small' means depends on you and Gub's willingness to dislocate his jaw.",
+    "Gub likes kidneys.",
+    "Gub kind of likes lungs.",
+    "Gub wants to put together a human. Gub doesn't understand. Gub was a life made by putting together random parts. Why can't Gub make this?",
+    "Gub just wants love. Not from you, though.",
+    "Gub has a torture chamber ready for you. Or him ;)",
+    "Gub wants to film a reality TV show featuring only things that smell as bad as skunks. You all have an invitation",
+    "Gub thinks he who smelt it, dealt it.",
+    "Gub wants to be stepped on like a cockroach.",
+    "Gub doesn't have a foot fetish, just a heels fetish.",
+    "Gub also chooses your dead wife.",
+    "Gub thinks you peaked in high school. Gub says you'll never be more special than you were then.",
+    "Gub knows your parents wish they went out for a pack of cigarettes and never came back, but the tax benefits of marriage were ultimately beneficial."
+    "Gub believes in Taco Bell supremacy.",
+    "Gub sees you as the blubber from a whale suffering from radiation poisoning because it was raised in a vat at Chernobyl.",
+    "Gub is a rat for the RNC. Just kidding, the DNC. Just kidding, the CIA. Just kidding, Gub represents the North American Model Boat Association. And you would make shitty model boats.",
+    "Gub is at least a 30DDD",
+    "Gub likes sandpaper. Gub hopes you also like sandpaper. Gub does not like resistance.",
+    "Gub is quite frankly tired of this bullshit. Gub thinks you're lucky that Gub does not have job security.",
+    "Gub is simping in the original sense of the word.",
+    "LOVE ME LOVE ME SAY THAT YOU LOVE ME\nFOOL ME FOOL ME SAY GO ON AND FOOL ME",
+    "FLY ME TO THE MOON AND LET ME PLAY AMONG THE STARS LET ME SEE WHAT SPRING IS LIKE ON JUPITER AND MARS",
+    "Gub puts everyone who needs a mixer first on his list.",
+    "Gub wishes a tornado lifts up your skirt and shows everyone your peepee.",
+    "Gub isn't afraid to cut you, bitch.",
+    "Gub thinks you're a silly bitch.",
+    "Gub would consider going to anger management classes, but Gub also knows that you deserve pain, and Gub wants to deliver it himself.",
+    "Gub wants to drive nails into your calves.",
+    "Gub has a collection of human feet and is looking to add to it.",
+    "Gub hopes you get grabbed by a tentacle porn monster.",
+    "Gub has tentacles.",
+    "Gub believes in annexing Crimea.",
+
 ]
 
 DEFAULT_GREETINGS = {
@@ -68,6 +105,10 @@ DEFAULT_GREETINGS = {
 }
 
 NAMES = ["Mayank", "Rishabh", "Ryan", "Achint", "Lia", "Gub"]
+DAYS = ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+
+GUB_PRAISES = ["good job gub", "good gub", "good gub", "good shit gub", "good boy gub", "good girl gub"]
+GUB_INSULTS = ["bad job gub", "bad gub", "bad gub", "shitty gub", "bad boy gub", "bad girl gub"]
 
 SELF_FILE_PATH = "images/gub.png"
 TEMP_QUEUED_FILE_PATH = "images/queued.png"

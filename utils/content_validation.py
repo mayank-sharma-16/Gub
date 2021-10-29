@@ -1,4 +1,5 @@
-from commands import commands
+from orders import orders as commands
+from constants import GUB_PRAISES, GUB_INSULTS
 
 
 def gub_mentioned(message):
@@ -25,9 +26,9 @@ def gubs_messaged(message):
 def gub_praised(message):
 
     message_content = message.content.lower()
-    if message_content == "good gub" or message_content == "good gub!":
+    if message_content in GUB_PRAISES:
         return 1
-    elif message_content == "bad gub" or message_content == "bad gub!":
+    elif message_content in GUB_INSULTS:
         return 2
     else:
         return 0

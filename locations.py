@@ -1,7 +1,7 @@
 import random 
 
-async def get_country(message):
+def get_country():
     f = open('files/countries.txt')
     countries = f.readline().split(',')
     f.close()
-    await message.channel.send(random.choice(countries))
+    return(random.choice(countries))
